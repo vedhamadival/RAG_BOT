@@ -51,3 +51,22 @@ huggingface/
 
 # Env variables
 .env
+
+
+# Ignore virtual environments
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# VSCode files
+.vscode/
+
+# System files
+.DS_Store
+
+# Jupyter/IPython notebooks
+.ipynb_checkpoints/
+
+# Output
+*.log
