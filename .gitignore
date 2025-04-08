@@ -1,0 +1,53 @@
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode and other IDE settings
+.vscode/
+.idea/
+
+# macOS & Linux
+.DS_Store
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python dependency cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Model and cache files
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.h5
+
+# HuggingFace and SentenceTransformers cache
+.cache/
+transformers_cache/
+sentence_transformers/
+datasets/
+huggingface/
+
+# Streamlit-specific
+.streamlit/
+
+# Logs
+*.log
+
+# Env variables
+.env
