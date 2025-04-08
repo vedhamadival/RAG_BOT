@@ -70,3 +70,6 @@ __pycache__/
 
 # Output
 *.log
+
+# Wheel files
+*.whl
